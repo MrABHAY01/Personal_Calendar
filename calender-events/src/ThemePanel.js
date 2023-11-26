@@ -30,7 +30,7 @@ const ThemePanel = ({ onThemeChange, onColorChange, onFontChange }) => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="fontFamily">Font Family:</label>
+        <label htmlFor="fontFamily">Font style:</label>
         <select
           id="fontFamily"
           className="form-control"
@@ -44,6 +44,7 @@ const ThemePanel = ({ onThemeChange, onColorChange, onFontChange }) => {
         </select>
       </div>
     </div>
+
   );
 };
 
